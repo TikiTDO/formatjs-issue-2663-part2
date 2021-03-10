@@ -1,0 +1,30 @@
+{
+  "name": "formatjs-issue-2663-part2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TikiTDO/formatjs-issue-2663-part2.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TikiTDO/formatjs-issue-2663-part2/issues"
+  },
+  "homepage": "https://github.com/TikiTDO/formatjs-issue-2663-part2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "babel-plugin-formatjs": "9.2.3"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.12.13",
+    "react": "^17.0.1",
+    "react-intl": "^5.13.2"
+  }
+}
